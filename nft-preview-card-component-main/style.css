@@ -1,0 +1,72 @@
+.vertical-align {
+  height: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+  width: 350px;
+  height: 580px;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background-color: hsl(216, 50%, 16%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 15px;
+}
+
+.main-text {
+  position: relative;
+  width: 100%;
+  height: 530px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.main-img {
+  width: 300px;
+  border-radius: 10px;
+}
+.item1 {
+  margin-bottom: 25px;
+  width: 300px;
+  height: 300px;
+}
+
+.item2 {
+  margin-bottom: 25px;
+  width: 300px;
+  font-weight: 100;
+  color: hsl(215, 51%, 70%);
+}
+h4 {
+  color: #fff;
+}
+.item3 .main-img {
+  width: 300px;
+}
+
+.ava-img {
+  width: 10%;
+  margin-right: 5px;
+}
+.price {
+  color: hsl(178, 100%, 50%);
+  font-weight: 300;
+}
+.clock {
+  color: hsl(215, 51%, 70%);
+  text-align: right;
+}
+hr {
+  width: 300px;
+}
+/* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> */
